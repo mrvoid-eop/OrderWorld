@@ -1,0 +1,600 @@
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1787791127681" level="INFO" thread="main">
+    <log4j:Message><![CDATA[ModLauncher running: args [--username, mrKahi, --version, neoforge-21.1.248, --gameDir, C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld, --assetsDir, C:\Users\tigan\curseforge\minecraft\Install\assets, --assetIndex, 17, --uuid, d8a438ccde94443eb1666cf646798355, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 79786a-6bbe69-2821d2-2b629e-338c42, --xuid, 2535473166093676, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\tigan\curseforge\minecraft\Quickplay\45e713f6-584d-49e0-ad71-1e50572351c8.json, , , , --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1787791127683" level="INFO" thread="main">
+    <log4j:Message><![CDATA[JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1787791127686" level="INFO" thread="main">
+    <log4j:Message><![CDATA[ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-GraphicsAdapterProbe" timestamp="1787791127905" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Searching for graphics cards...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-GraphicsAdapterProbe" timestamp="1787791128036" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3060', adapterType=0x0000031B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_d95662815b9b13a8\nvoglv64.dll', openglIcdVersion=32.0.16.1088}]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-Workarounds" timestamp="1787791128044" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-Workarounds" timestamp="1787791128044" level="WARN" thread="main">
+    <log4j:Message><![CDATA[This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium-NvidiaWorkarounds" timestamp="1787791128044" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Modifying process environment to apply workarounds for the NVIDIA graphics driver...]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.ImmediateWindowHandler" timestamp="1787791128048" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Loading ImmediateWindowProvider fmlearlywindow]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1787791128114" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Trying GL version 4.6]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1787791128311" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Requested GL version 4.6 got version 4.6]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791128415" level="INFO" thread="main">
+    <log4j:Message><![CDATA[SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/tigan/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1787791128596" level="INFO" thread="pool-2-thread-1">
+    <log4j:Message><![CDATA[GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 610.88, NVIDIA Corporation]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128791" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.248:client]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128811" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\tigan\curseforge\minecraft\Install\libraries\net\neoforged\neoforge\21.1.248\neoforge-21.1.248-universal.jar]], reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128834" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "net.caffeinemc.sodium-neoforge-0.8.12+mc1.21.1-mod.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128845" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128849" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128851" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128853" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128860" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "BetterModsButton-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128864" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Controlling-neoforge-1.21.1-19.0.5.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128872" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128877" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "gnetum-3.3.6.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128881" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128884" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "jei-1.21.1-neoforge-19.27.0.336.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128887" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "jei_plus_plus-1.0.3-1.21.1.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128889" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "nanite-evolution-neoforge-0.3.0.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791128891" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1787791129011" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_data_attachment_v1. Using Mod File: ]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1787791129011" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_api_v1. Using Mod File: ]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1787791129011" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_base. Using Mod File: ]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1787791129011" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_view_api_v2. Using Mod File: ]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator" timestamp="1787791129011" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found 4 dependencies adding them to mods collection]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791129012" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791129012" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "glsl-transformer-3.0.0-pre3.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791129012" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791129012" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1787791129013" level="INFO" thread="main">
+    <log4j:Message><![CDATA[
+     Mod List:
+		Name Version (Mod Id)
+
+		Better Mods Button 21.1.0 (bettermodsbutton)
+		Controlling 19.0.5 (controlling)
+		Ferrite Core 7.0.3 (ferritecore)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Gnetum 3.3.6 (gnetum)
+		Iris 1.8.14-beta.1+mc1.21.1 (iris)
+		JEI++ 1.0.3-1.21.1 (jei_plus_plus)
+		Just Enough Items 19.27.0.336 (jei)
+		Minecraft 1.21.1 (minecraft)
+		Nanite Evolution 0.3.0 (nanite_evolution)
+		NeoForge 21.1.248 (neoforge)
+		Searchables 1.0.2 (searchables)
+		Sodium 0.8.12+mc1.21.1 (sodium)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129425" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Compatibility level set to JAVA_21]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.LaunchServiceHandler" timestamp="1787791129453" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Launching target 'forgeclient' with arguments [--version, neoforge-21.1.248, --gameDir, C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld, --assetsDir, C:\Users\tigan\curseforge\minecraft\Install\assets, --uuid, d8a438ccde94443eb1666cf646798355, --username, mrKahi, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 79786a-6bbe69-2821d2-2b629e-338c42, --xuid, 2535473166093676, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\tigan\curseforge\minecraft\Quickplay\45e713f6-584d-49e0-ad71-1e50572351c8.json, , , ]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129550" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129550" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129551" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129551" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129551" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129589" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129590" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129591" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129591" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129591" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129592" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129594" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129594" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129596" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129596" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129596" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'gnetum.mixins.refmap.json' for gnetum.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium" timestamp="1787791129617" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Loaded configuration file for Sodium: 45 options available, 1 override(s) found]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129618" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'jei_plus_plus.refmap.json' for jei_plus_plus.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129619" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129619" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'controlling.refmap.json' for controlling.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129620" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791129620" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map 'searchables.refmap.json' for searchables.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130022" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130022" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130023" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130023" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130023" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: mekanism/client/render/lib/effect/BillboardingEffectRenderer (java.lang.ClassNotFoundException: mekanism.client.render.lib.effect.BillboardingEffectRenderer)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130026" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130041" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: snownee/jade/util/ClientProxy (java.lang.ClassNotFoundException: snownee.jade.util.ClientProxy)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130043" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: journeymap/client/event/handlers/HudOverlayHandler (java.lang.ClassNotFoundException: journeymap.client.event.handlers.HudOverlayHandler)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130045" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: nx/pingwheel/common/CommonClient (java.lang.ClassNotFoundException: nx.pingwheel.common.CommonClient)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130046" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumOptionsGUI (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium" timestamp="1787791130060" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium" timestamp="1787791130062" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="Sodium" timestamp="1787791130062" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130097" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: mezz/jei/gui/overlay/ingredients/IngredientListRenderer (java.lang.ClassNotFoundException: mezz.jei.gui.overlay.ingredients.IngredientListRenderer)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130101" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: mezz/jei/gui/overlay/ingredients/IngredientGridWithNavigation (java.lang.ClassNotFoundException: mezz.jei.gui.overlay.ingredients.IngredientGridWithNavigation)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1787791130102" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Error loading class: org/cyclops/integratedterminals/client/gui/container/ContainerScreenTerminalStorage (java.lang.ClassNotFoundException: org.cyclops.integratedterminals.client.gui.container.ContainerScreenTerminalStorage)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="MixinExtras|Service" timestamp="1787791130188" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT] WARN StatusConsoleListener Error parsing URI C:\Users\tigan\curseforge\minecraft\Install\assets\log_configs\client-1.12.xml
+
+[STDOUT] WARN StatusConsoleListener Advanced terminal features are not available in this environment
+
+[STDOUT] [01:38:51] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 261 milliseconds
+
+[STDOUT] [01:38:55] [main/INFO] [minecraft/Main]: Completely ignored arguments: [, , ]
+
+[STDOUT] [01:38:55] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/tigan/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23199!/assets/.mcassetsroot' uses unexpected schema
+
+[STDOUT] [01:38:55] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/tigan/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23199!/data/.mcassetsroot' uses unexpected schema
+
+[STDOUT] [01:38:55] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+
+[STDOUT] [01:38:55] [Render thread/INFO] [minecraft/Minecraft]: Setting user: mrKahi
+
+[STDOUT] [01:38:55] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+
+[STDOUT] [01:38:55] [Render thread/INFO] [mojang/Window]: OpenGL Vendor: NVIDIA Corporation
+
+[STDOUT] [01:38:55] [Render thread/INFO] [mojang/Window]: OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+
+[STDOUT] [01:38:55] [Render thread/INFO] [mojang/Window]: OpenGL Version: 4.6.0 NVIDIA 610.88
+
+[STDOUT] [01:38:55] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+
+[STDOUT] [01:38:55] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threaded command submission
+
+[STDOUT] [01:38:56] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
+
+[STDOUT] [01:38:56] [Render thread/INFO] [Iris/]: OpenGL 4.5 detected, enabling DSA.
+
+[STDOUT] [01:38:56] [Render thread/INFO] [Iris/]: Shaders are disabled because no valid shaderpack is selected
+
+[STDOUT] [01:38:56] [ForkJoinPool.commonPool-worker-13/WARN] [Iris/]: [Iris Update Check] This version doesn't have an update index, skipping.
+
+[STDOUT] [01:38:56] [modloading-worker-0/INFO] [nanite_evolution/]: GregTech CEu Modern not detected; running standalone
+
+[STDOUT] [01:38:56] [modloading-worker-0/INFO] [nanite_evolution/]: Nanite Evolution initialized on NeoForge
+
+[STDOUT] [01:38:56] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+
+[STDOUT] [01:38:56] [modloading-worker-0/INFO] [me.je.li.lo.PluginCaller/]: Sending ConfigManager...
+
+[STDOUT] [01:38:56] [modloading-worker-0/INFO] [me.je.li.lo.PluginCaller/]: Sending ConfigManager took 2.507 milliseconds
+
+[STDOUT] [01:38:57] [Render thread/INFO] [Iris/]: Hardware information:
+
+[STDOUT] [01:38:57] [Render thread/INFO] [Iris/]: CPU: 16x AMD Ryzen 7 5800X 8-Core Processor 
+
+[STDOUT] [01:38:57] [Render thread/INFO] [Iris/]: GPU: NVIDIA GeForce RTX 3060/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 610.88)
+
+[STDOUT] [01:38:57] [Render thread/INFO] [Iris/]: OS: Windows 11 (10.0)
+
+[STDOUT] [01:38:57] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/iris, mod/fabric_api_base, mod/fabric_renderer_api_v1, mod/ferritecore, mod/gnetum, mod/jei, mod/fabric_rendering_data_attachment_v1, mod/jei_plus_plus, mod/bettermodsbutton, mod/controlling, mod/neoforge, mod/searchables, mod/nanite_evolution, mod/fabric_block_view_api_v2
+
+[STDOUT] [01:38:57] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [bettermodsbutton] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettermodsbutton.json
+
+[STDOUT] [01:38:57] [Worker-Main-6/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+
+[STDOUT] [01:38:57] [Worker-Main-3/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+
+[STDOUT] [01:38:58] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [bettermodsbutton] Found status: UP_TO_DATE Current: 21.1.0 Target: null
+
+[STDOUT] [01:38:58] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.1&ml=neoforge
+
+[STDOUT] [01:38:58] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [controlling] Found status: BETA Current: 19.0.5 Target: 19.0.5
+[01:38:58] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.1&ml=neoforge
+
+[STDOUT] [01:38:58] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
+
+[STDOUT] [01:38:59] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+
+[STDOUT] [01:38:59] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+
+[STDOUT] [01:38:59] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device OpenAL Soft on VS278 (NVIDIA High Definition Audio)
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+
+[STDOUT] [01:38:59] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+
+[STDOUT] [01:38:59] [Render thread/INFO] [ne.ne.ne.cl.en.an.js.AnimationLoader/]: Loaded 0 entity animations
+
+[STDOUT] [01:39:00] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+
+[STDOUT] [01:39:26] [Render thread/WARN] [ne.ne.ne.co.CommonHooks/WP]: The following mods have version differences that were not resolved:
+nanite_evolution (version 0.2.0 -> 0.3.0)
+Things may not work well.
+
+[STDOUT] [01:39:27] [Render thread/INFO] [minecraft/RecipeManager]: Loaded 1293 recipes
+
+[STDOUT] [01:39:27] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 1399 advancements
+
+[STDOUT] [01:39:28] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.21.1
+
+[STDOUT] [01:39:28] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+
+[STDOUT] [01:39:28] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+
+[STDOUT] [01:39:29] [Render thread/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+
+[STDOUT] [01:39:29] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+
+[STDOUT] [01:39:29] [Render thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 405 ms
+
+[STDOUT] [01:39:29] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+
+[STDOUT] [01:39:29] [Server thread/INFO] [minecraft/IntegratedServer]: Changing simulation distance to 12, from 0
+
+[STDOUT] [01:39:30] [Server thread/INFO] [minecraft/PlayerList]: mrKahi[local:E:1bf83d4e] logged in with entity id 15 at (9.5, 65.0, 5.5)
+
+[STDOUT] [01:39:30] [Render thread/INFO] [Iris/]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+
+[STDOUT] [01:39:30] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
+
+[STDOUT] [01:39:30] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+
+[STDOUT] [01:39:30] [Server thread/INFO] [minecraft/MinecraftServer]: mrKahi joined the game
+
+[STDOUT] [01:39:30] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Starting JEI...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering item subtypes...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCallerTimerRunnable/]: Registering item subtypes: jei:minecraft took 13.70 milliseconds
+[01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering item subtypes took 14.90 milliseconds
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering fluid subtypes...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering fluid subtypes took 3.820 milliseconds
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering ingredients...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 155.9 milliseconds
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering ingredients took 156.9 milliseconds
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering extra ingredients...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering extra ingredients took 432.2 microseconds
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering search ingredient aliases...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering search ingredient aliases took 598.1 microseconds
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering Mod Info...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering Mod Info took 445.9 microseconds
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering categories...
+
+[STDOUT] [01:39:30] [Render thread/INFO] [me.je.li.lo.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 38.77 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering categories took 48.25 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering vanilla category extensions...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering vanilla category extensions took 7.123 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering recipe catalysts...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering recipe catalysts took 688.0 microseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building recipe registry...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building recipe registry took 35.20 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering advanced plugins...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering advanced plugins took 3.853 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering recipes...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 216.4 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering recipes took 217.0 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering recipes transfer handlers...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering recipes transfer handlers took 6.112 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building runtime...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering gui handlers...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCallerTimerRunnable/]: Registering gui handlers: jei:gui took 18.98 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering gui handlers took 26.55 milliseconds
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering Runtime...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.gu.st.JeiGuiStarter/]: Starting JEI GUI
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building ingredient list...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building ingredient list took 25.00 milliseconds
+[01:39:31] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building ingredient filter...
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.gu.in.IngredientFilter/]: Adding 1691 ingredients
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.gu.in.IngredientFilter/]: Added 1691 ingredients
+
+[STDOUT] [01:39:31] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building ingredient filter took 339.0 milliseconds
+
+[STDOUT] [01:39:32] [Render thread/INFO] [me.je.li.lo.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 715.7 milliseconds
+
+[STDOUT] [01:39:32] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Registering Runtime took 716.5 milliseconds
+
+[STDOUT] [01:39:32] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Building runtime took 769.5 milliseconds
+
+[STDOUT] [01:39:32] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Sending Runtime...
+
+[STDOUT] [01:39:32] [Render thread/INFO] [me.je.li.lo.PluginCallerTimerRunnable/]: Sending Runtime: jei_plus_plus:jei_plugin took 18.71 milliseconds
+
+[STDOUT] [01:39:32] [Render thread/INFO] [me.je.li.lo.PluginCaller/]: Sending Runtime took 19.61 milliseconds
+
+[STDOUT] [01:39:32] [Render thread/INFO] [me.je.co.ut.LoggedTimer/]: Starting JEI took 1.411 seconds
+
+[STDOUT] [01:39:32] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 2 advancements
+
+[STDOUT] [01:40:08] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
+
+[STDOUT] [01:40:08] [Render thread/INFO] [Iris/]: Shaders are disabled because no valid shaderpack is selected
+
+[STDOUT] [01:40:08] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+
+[STDOUT] [01:40:08] [Render thread/INFO] [minecraft/ChatComponent]: [System] [CHAT] Shaders Reloaded!
+
+[STDOUT] [01:40:27] [Render thread/INFO] [minecraft/ChatComponent]: [System] [CHAT] Attunement complete. The colony memorized your biological signature.
+

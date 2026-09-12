@@ -1,0 +1,230 @@
+[01:38:47] [main/INFO]: ModLauncher running: args [--username, mrKahi, --version, neoforge-21.1.248, --gameDir, C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld, --assetsDir, C:\Users\tigan\curseforge\minecraft\Install\assets, --assetIndex, 17, --uuid, d8a438ccde94443eb1666cf646798355, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 79786a-6bbe69-2821d2-2b629e-338c42, --xuid, 2535473166093676, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\tigan\curseforge\minecraft\Quickplay\45e713f6-584d-49e0-ad71-1e50572351c8.json, , , , --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[01:38:47] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[01:38:47] [main/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[01:38:47] [main/INFO]: Searching for graphics cards...
+[01:38:48] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3060', adapterType=0x0000031B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_d95662815b9b13a8\nvoglv64.dll', openglIcdVersion=32.0.16.1088}
+[01:38:48] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[01:38:48] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[01:38:48] [main/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[01:38:48] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[01:38:48] [main/INFO]: Trying GL version 4.6
+[01:38:48] [main/INFO]: Requested GL version 4.6 got version 4.6
+[01:38:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/tigan/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT
+[01:38:48] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 610.88, NVIDIA Corporation
+[01:38:48] [main/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.248:client]
+[01:38:48] [main/INFO]: Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\tigan\curseforge\minecraft\Install\libraries\net\neoforged\neoforge\21.1.248\neoforge-21.1.248-universal.jar]], reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "net.caffeinemc.sodium-neoforge-0.8.12+mc1.21.1-mod.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@34abdee4, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "BetterModsButton-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "Controlling-neoforge-1.21.1-19.0.5.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "gnetum-3.3.6.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "jei-1.21.1-neoforge-19.27.0.336.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "jei_plus_plus-1.0.3-1.21.1.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "nanite-evolution-neoforge-0.3.0.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:48] [main/INFO]: Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld\mods}, reader: mod manifest]
+[01:38:49] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_data_attachment_v1. Using Mod File: 
+[01:38:49] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_api_v1. Using Mod File: 
+[01:38:49] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_base. Using Mod File: 
+[01:38:49] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_view_api_v2. Using Mod File: 
+[01:38:49] [main/INFO]: Found 4 dependencies adding them to mods collection
+[01:38:49] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
+[01:38:49] [main/INFO]: Found library file "glsl-transformer-3.0.0-pre3.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]
+[01:38:49] [main/INFO]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]
+[01:38:49] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
+[01:38:49] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Better Mods Button 21.1.0 (bettermodsbutton)
+		Controlling 19.0.5 (controlling)
+		Ferrite Core 7.0.3 (ferritecore)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Gnetum 3.3.6 (gnetum)
+		Iris 1.8.14-beta.1+mc1.21.1 (iris)
+		JEI++ 1.0.3-1.21.1 (jei_plus_plus)
+		Just Enough Items 19.27.0.336 (jei)
+		Minecraft 1.21.1 (minecraft)
+		Nanite Evolution 0.3.0 (nanite_evolution)
+		NeoForge 21.1.248 (neoforge)
+		Searchables 1.0.2 (searchables)
+		Sodium 0.8.12+mc1.21.1 (sodium)
+[01:38:49] [main/INFO]: Compatibility level set to JAVA_21
+[01:38:49] [main/INFO]: Launching target 'forgeclient' with arguments [--version, neoforge-21.1.248, --gameDir, C:\Users\tigan\curseforge\minecraft\Instances\OrderWorld, --assetsDir, C:\Users\tigan\curseforge\minecraft\Install\assets, --uuid, d8a438ccde94443eb1666cf646798355, --username, mrKahi, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 79786a-6bbe69-2821d2-2b629e-338c42, --xuid, 2535473166093676, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\tigan\curseforge\minecraft\Quickplay\45e713f6-584d-49e0-ad71-1e50572351c8.json, , , ]
+[01:38:49] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'gnetum.mixins.refmap.json' for gnetum.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/INFO]: Loaded configuration file for Sodium: 45 options available, 1 override(s) found
+[01:38:49] [main/WARN]: Reference map 'jei_plus_plus.refmap.json' for jei_plus_plus.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:38:49] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:38:50] [main/WARN]: Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
+[01:38:50] [main/WARN]: Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
+[01:38:50] [main/WARN]: Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+[01:38:50] [main/WARN]: Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+[01:38:50] [main/WARN]: Error loading class: mekanism/client/render/lib/effect/BillboardingEffectRenderer (java.lang.ClassNotFoundException: mekanism.client.render.lib.effect.BillboardingEffectRenderer)
+[01:38:50] [main/WARN]: Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)
+[01:38:50] [main/WARN]: Error loading class: snownee/jade/util/ClientProxy (java.lang.ClassNotFoundException: snownee.jade.util.ClientProxy)
+[01:38:50] [main/WARN]: Error loading class: journeymap/client/event/handlers/HudOverlayHandler (java.lang.ClassNotFoundException: journeymap.client.event.handlers.HudOverlayHandler)
+[01:38:50] [main/WARN]: Error loading class: nx/pingwheel/common/CommonClient (java.lang.ClassNotFoundException: nx.pingwheel.common.CommonClient)
+[01:38:50] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumOptionsGUI (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI)
+[01:38:50] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[01:38:50] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[01:38:50] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[01:38:50] [main/WARN]: Error loading class: mezz/jei/gui/overlay/ingredients/IngredientListRenderer (java.lang.ClassNotFoundException: mezz.jei.gui.overlay.ingredients.IngredientListRenderer)
+[01:38:50] [main/WARN]: Error loading class: mezz/jei/gui/overlay/ingredients/IngredientGridWithNavigation (java.lang.ClassNotFoundException: mezz.jei.gui.overlay.ingredients.IngredientGridWithNavigation)
+[01:38:50] [main/WARN]: Error loading class: org/cyclops/integratedterminals/client/gui/container/ContainerScreenTerminalStorage (java.lang.ClassNotFoundException: org.cyclops.integratedterminals.client.gui.container.ContainerScreenTerminalStorage)
+[01:38:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[27Aug2026 01:38:51.748] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 261 milliseconds
+[27Aug2026 01:38:55.319] [main/INFO] [net.minecraft.client.main.Main/]: Completely ignored arguments: [, , ]
+[27Aug2026 01:38:55.549] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tigan/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23199!/assets/.mcassetsroot' uses unexpected schema
+[27Aug2026 01:38:55.550] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tigan/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23199!/data/.mcassetsroot' uses unexpected schema
+[27Aug2026 01:38:55.596] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[27Aug2026 01:38:55.607] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: mrKahi
+[27Aug2026 01:38:55.754] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[27Aug2026 01:38:55.824] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: NVIDIA Corporation
+[27Aug2026 01:38:55.824] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[27Aug2026 01:38:55.824] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 NVIDIA 610.88
+[27Aug2026 01:38:55.826] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[27Aug2026 01:38:55.827] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threaded command submission
+[27Aug2026 01:38:56.053] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
+[27Aug2026 01:38:56.066] [Render thread/INFO] [Iris/]: OpenGL 4.5 detected, enabling DSA.
+[27Aug2026 01:38:56.111] [Render thread/INFO] [Iris/]: Shaders are disabled because no valid shaderpack is selected
+[27Aug2026 01:38:56.143] [ForkJoinPool.commonPool-worker-13/WARN] [Iris/]: [Iris Update Check] This version doesn't have an update index, skipping.
+[27Aug2026 01:38:56.248] [modloading-worker-0/INFO] [nanite_evolution/]: GregTech CEu Modern not detected; running standalone
+[27Aug2026 01:38:56.249] [modloading-worker-0/INFO] [nanite_evolution/]: Nanite Evolution initialized on NeoForge
+[27Aug2026 01:38:56.330] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[27Aug2026 01:38:56.575] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[27Aug2026 01:38:56.578] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.507 milliseconds
+[27Aug2026 01:38:57.338] [Render thread/INFO] [Iris/]: Hardware information:
+[27Aug2026 01:38:57.339] [Render thread/INFO] [Iris/]: CPU: 16x AMD Ryzen 7 5800X 8-Core Processor 
+[27Aug2026 01:38:57.339] [Render thread/INFO] [Iris/]: GPU: NVIDIA GeForce RTX 3060/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 610.88)
+[27Aug2026 01:38:57.339] [Render thread/INFO] [Iris/]: OS: Windows 11 (10.0)
+[27Aug2026 01:38:57.619] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/iris, mod/fabric_api_base, mod/fabric_renderer_api_v1, mod/ferritecore, mod/gnetum, mod/jei, mod/fabric_rendering_data_attachment_v1, mod/jei_plus_plus, mod/bettermodsbutton, mod/controlling, mod/neoforge, mod/searchables, mod/nanite_evolution, mod/fabric_block_view_api_v2
+[27Aug2026 01:38:57.717] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bettermodsbutton] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettermodsbutton.json
+[27Aug2026 01:38:57.787] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[27Aug2026 01:38:57.960] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[27Aug2026 01:38:58.152] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bettermodsbutton] Found status: UP_TO_DATE Current: 21.1.0 Target: null
+[27Aug2026 01:38:58.152] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.1&ml=neoforge
+[27Aug2026 01:38:58.258] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [controlling] Found status: BETA Current: 19.0.5 Target: 19.0.5
+[27Aug2026 01:38:58.258] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.1&ml=neoforge
+[27Aug2026 01:38:58.279] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
+[27Aug2026 01:38:59.519] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[27Aug2026 01:38:59.521] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[27Aug2026 01:38:59.560] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on VS278 (NVIDIA High Definition Audio)
+[27Aug2026 01:38:59.562] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[27Aug2026 01:38:59.673] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[27Aug2026 01:38:59.694] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[27Aug2026 01:38:59.695] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[27Aug2026 01:38:59.696] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[27Aug2026 01:38:59.696] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[27Aug2026 01:38:59.701] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[27Aug2026 01:38:59.701] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[27Aug2026 01:38:59.701] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[27Aug2026 01:38:59.702] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[27Aug2026 01:38:59.867] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[27Aug2026 01:38:59.868] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[27Aug2026 01:38:59.869] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[27Aug2026 01:38:59.869] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[27Aug2026 01:38:59.869] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[27Aug2026 01:38:59.887] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[27Aug2026 01:38:59.938] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[27Aug2026 01:38:59.943] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[27Aug2026 01:39:00.010] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[27Aug2026 01:39:26.724] [Render thread/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+nanite_evolution (version 0.2.0 -> 0.3.0)
+Things may not work well.
+[27Aug2026 01:39:27.740] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1293 recipes
+[27Aug2026 01:39:27.891] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[27Aug2026 01:39:28.250] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[27Aug2026 01:39:28.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27Aug2026 01:39:28.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27Aug2026 01:39:29.318] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Aug2026 01:39:29.402] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[27Aug2026 01:39:29.413] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 405 ms
+[27Aug2026 01:39:29.509] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[27Aug2026 01:39:29.509] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[27Aug2026 01:39:30.112] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mrKahi[local:E:1bf83d4e] logged in with entity id 15 at (9.5, 65.0, 5.5)
+[27Aug2026 01:39:30.179] [Render thread/INFO] [Iris/]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[27Aug2026 01:39:30.180] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
+[27Aug2026 01:39:30.180] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[27Aug2026 01:39:30.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mrKahi joined the game
+[27Aug2026 01:39:30.493] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[27Aug2026 01:39:30.684] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[27Aug2026 01:39:30.701] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[27Aug2026 01:39:30.716] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:minecraft took 13.70 milliseconds
+[27Aug2026 01:39:30.716] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 14.90 milliseconds
+[27Aug2026 01:39:30.717] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[27Aug2026 01:39:30.721] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 3.820 milliseconds
+[27Aug2026 01:39:30.729] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[27Aug2026 01:39:30.886] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 155.9 milliseconds
+[27Aug2026 01:39:30.886] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 156.9 milliseconds
+[27Aug2026 01:39:30.887] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[27Aug2026 01:39:30.887] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 432.2 microseconds
+[27Aug2026 01:39:30.888] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[27Aug2026 01:39:30.888] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 598.1 microseconds
+[27Aug2026 01:39:30.922] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[27Aug2026 01:39:30.923] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 445.9 microseconds
+[27Aug2026 01:39:30.955] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[27Aug2026 01:39:30.996] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 38.77 milliseconds
+[27Aug2026 01:39:31.005] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 48.25 milliseconds
+[27Aug2026 01:39:31.007] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[27Aug2026 01:39:31.014] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 7.123 milliseconds
+[27Aug2026 01:39:31.017] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[27Aug2026 01:39:31.017] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 688.0 microseconds
+[27Aug2026 01:39:31.018] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[27Aug2026 01:39:31.053] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 35.20 milliseconds
+[27Aug2026 01:39:31.056] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[27Aug2026 01:39:31.061] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 3.853 milliseconds
+[27Aug2026 01:39:31.063] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[27Aug2026 01:39:31.279] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 216.4 milliseconds
+[27Aug2026 01:39:31.279] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 217.0 milliseconds
+[27Aug2026 01:39:31.296] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[27Aug2026 01:39:31.301] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 6.112 milliseconds
+[27Aug2026 01:39:31.305] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[27Aug2026 01:39:31.320] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[27Aug2026 01:39:31.346] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:gui took 18.98 milliseconds
+[27Aug2026 01:39:31.346] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 26.55 milliseconds
+[27Aug2026 01:39:31.356] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[27Aug2026 01:39:31.359] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[27Aug2026 01:39:31.360] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[27Aug2026 01:39:31.386] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 25.00 milliseconds
+[27Aug2026 01:39:31.386] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[27Aug2026 01:39:31.504] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1691 ingredients
+[27Aug2026 01:39:31.723] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1691 ingredients
+[27Aug2026 01:39:31.725] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 339.0 milliseconds
+[27Aug2026 01:39:32.073] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 715.7 milliseconds
+[27Aug2026 01:39:32.073] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 716.5 milliseconds
+[27Aug2026 01:39:32.075] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 769.5 milliseconds
+[27Aug2026 01:39:32.075] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[27Aug2026 01:39:32.095] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei_plus_plus:jei_plugin took 18.71 milliseconds
+[27Aug2026 01:39:32.095] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 19.61 milliseconds
+[27Aug2026 01:39:32.096] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.411 seconds
+[27Aug2026 01:39:32.116] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[27Aug2026 01:40:08.754] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
+[27Aug2026 01:40:08.754] [Render thread/INFO] [Iris/]: Shaders are disabled because no valid shaderpack is selected
+[27Aug2026 01:40:08.754] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[27Aug2026 01:40:08.757] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Shaders Reloaded!
+[27Aug2026 01:40:27.052] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Attunement complete. The colony memorized your biological signature.
