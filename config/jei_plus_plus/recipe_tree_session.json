@@ -1,0 +1,10 @@
+{
+  "crafting": true,
+  "recipe": "minecraft:crafting|nanite_evolution:nanite_core",
+  "category": "minecraft:crafting",
+  "registry": "nanite_evolution:nanite_core",
+  "output": "nanite_evolution:nanite_core",
+  "count": 1,
+  "batches": 1,
+  "item": "nanite_evolution:nanite_core"
+}

@@ -1,0 +1,12 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"nanite_evolution:raw_nanite_cluster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nanite_evolution:bio_alloy_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"nanite_evolution:nanite_core","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"nanite_evolution:nanite_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crossbow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:netherite_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:chainmail_leggings"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wind_charge"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
